@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import { Grid } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { padding } from '@mui/system';
+
 
 
 const Item = styled('div')({
@@ -21,7 +21,7 @@ function FormBox() {
           width: 500,
           maxWidth: '100%',
           backgroundColor: 'whitesmoke',
-          boxShadow: 1,
+          boxShadow: 2,
         }}
       >
         <Grid>
