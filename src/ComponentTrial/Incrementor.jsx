@@ -28,7 +28,7 @@ function Incrementor(){
     return (
         <div class="d-flex justify-content-center">
             <div class="container">
-                <div className="container-fluid">
+                <div className="container-fluid" style={{"paddingLeft":"30%", "paddingRight":"30%"}}>
                     <ul className='list-group'>
                         <li className='list-group-item d-flex justify-content-center'> <h1 className="display-6">{count}</h1> </li>
                         <li className='list-group-item d-flex justify-content-center'><Button size="small" onClick={increase}><b>+</b></Button></li>
